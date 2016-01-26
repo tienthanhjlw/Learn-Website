@@ -1,0 +1,245 @@
+/* Navigation */
+
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.navbar-header {
+    height: 90px;
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+.navbar-brand a {
+    color: #8a44ad;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#navbar.navbar-collapse.collapse {
+    margin: 25px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #FFF;
+    border-bottom: 2px solid #8a44ad;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+
+/* Header */
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-back {
+    margin-top: 50px;
+}
+
+.carousel-control {
+    background: none;
+}
+
+
+/* Header / Booking */
+
+.booking-form {
+    width: 1116, 5;
+    padding: 30px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: -182;
+    left: 100;
+}
+
+.booking-form label {
+    background-color: #8e44ad;
+    color: white;
+    padding: 15;
+    margin: 0;
+}
+
+.booking-form input[type="text"] {}
+
+.booking-form input[type="submit"] {
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+.has-success .form-control {
+    border-color: rgba(12, 6, 13, 0.64);
+    height: 40;
+}
+
+.has-success .form-control-feedback {
+    color: #8E44AD;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #000;
+}
+
+form.form-inline {
+    margin-bottom: 0;
+    padding: 30;
+    background-color: rgba(12, 6, 13, 0.64);
+}
+
+@media only screen and (max-width: 1300px) {
+    .booking-form {
+        margin-top: 0;
+    }
+    section {
+        margin-top: 250;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .booking-form {
+        left: 0;
+        width: 708px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .booking-form {
+        bottom: inherit !important;
+        top: 0px;
+        position: relative;
+    }
+    section {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .booking-form {
+        width: 245px;
+    }
+}
+
+
+/* common */
+
+hr.hr {
+    border-color: #BEA3C9;
+    ;
+    padding-top: 20;
+}
+
+hr.hr:after {
+    content: url(../images/hr.png);
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+.group-cc a.carousel-control {
+    background: none;
+    top: 40%;
+}
+
+.group-cc a.carousel-control i {
+    background: none repeat scroll 0 0 #777777;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.nearby-attraction a.carousel-control i {
+    padding: 10px 20px 10px 20px;
+    border-radius: 100%;
+}
+
+.fanciliti a.carousel-control i {
+    padding: 0;
+}
+
+a.left.carousel-control {
+    left: -60;
+}
+
+a.right.carousel-control {
+    right: -60;
+}
+
+.caption {
+    position: absolute;
+    bottom: 5;
+    left: 20;
+    background: rgba(80, 80, 80, 0.75);
+    width: 245;
+}
+
+.caption span {
+    color: #fff;
+    font-family: Arial;
+    display: block;
+    font-size: .85em;
+    padding: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+}
+
+nav.foot-nav {
+    background: #8e44Ad;
+    border-radius: 0;
+}
+
+nav.foot-nav ul.navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+nav.foot-nav a {
+    color: #FFF;
+}
+
+ul.social {
+    margin-top: 30;
+}
+
+ul.social li {
+    display: inline-block;
+}
+
+ul.social li a {
+    display: block;
+    background-color: #8e44Ad;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    padding: 10;
+    outline: 0;
+    transition: all .3s;
+}
+
+tel,
+footer span.fa {
+    color: #8e44ad;
+}
